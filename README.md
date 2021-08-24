@@ -100,4 +100,13 @@ public class CubeScript : MonoBehaviour {
     }
 }
 ```
-Use Transform.Rotate to rotate GameObjects in a variety of ways. 
+Use Transform.Rotate to rotate GameObjects in a variety of ways.
+
+---
+
+## E10
+
+collision (столкновение).
+Collisions in Unity are separated from the actual Sprite itself, attached as separate components and are calculated on their own.
+
+**Everything** in game is GameObject.
