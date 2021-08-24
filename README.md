@@ -78,7 +78,7 @@ vector3 - for 3d;
 
 ---
 ## E8
-![e8](\assets\e8.png)
+![e8.png](assets/e8.png)
 
 adding movement intro game.
 
@@ -100,3 +100,4 @@ public class CubeScript : MonoBehaviour {
     }
 }
 ```
+Use Transform.Rotate to rotate GameObjects in a variety of ways. 
