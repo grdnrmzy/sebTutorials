@@ -64,7 +64,8 @@ Console.WriteLine(**-5** % **-4**); **// output: -1**
 ---
 
 **E6.**
-simple game with public class TimeGame;
+simple game with `public class TimeGame;`
+
 ---
 
 ## E7
@@ -74,3 +75,28 @@ vectors:
 vector2 - for 2d;
 
 vector3 - for 3d;
+
+---
+## E8
+![e8](\assets\e8.png)
+
+adding movement intro game.
+
+---
+## E9
+
+writting roration script.
+
+```csharp
+public class CubeScript : MonoBehaviour {
+    public Transform sphereTransform;
+
+    void Start(){
+        sphereTransform.parent = transform;
+    }
+
+    void Update(){
+        transform.eulerAngles += new Vector3 (0, 180 * Time.deltaTime, 0);
+    }
+}
+```
