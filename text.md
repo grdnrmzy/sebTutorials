@@ -1,5 +1,6 @@
 # Sebastian's tutorials
 
+
 [kmfmd](#E7)
 
 **E1.**
@@ -54,12 +55,10 @@ operators and if statements.
 
 **% - The remainder operator % computes the remainder after dividing its left-hand operand by its right-hand operand.**
 
-``` csharp
 Console.WriteLine(**5** % **4**);   **// output: 1**
 Console.WriteLine(**5** % **-4**);  **// output: 1**
 Console.WriteLine(**-5** % **4**);  **// output: -1**
 Console.WriteLine(**-5** % **-4**); **// output: -1**
-```
 
 ---
 
@@ -69,8 +68,5 @@ simple game with public class TimeGame;
 
 ## E7
 
-vectors:
-
-vector2 - for 2d;
-
-vector3 - for 3d;
+vectors.
+vector2 - for 2d
